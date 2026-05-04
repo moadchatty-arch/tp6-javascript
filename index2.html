@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 6 - To-do List</title>
+    <!-- Lien vers le fichier CSS pour le style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ma Liste de Tâches</h1>
+
+        <!-- Formulaire pour saisir une nouvelle tâche -->
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Entrez une tâche..." required>
+            <button type="submit" id="add-btn">Ajouter</button>
+        </form>
+
+        <!-- Liste vide qui accueillera les tâches via JS -->
+        <ul id="todo-list"></ul>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript pour la logique[cite: 1] -->
+    <script src="script.js"></script>
+</body>
+</html>
